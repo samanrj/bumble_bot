@@ -4,7 +4,10 @@ from time import sleep
 
 from credentials import phone_num, password
 
-'''some constants'''
+'''
+parametrizing the paths for better configurability/change control
+ideally one should move away from xPaths and use element_ids instead
+'''
 sign_in_bttn_path = '//*[@id="page"]/div/div/div[1]/div/div[2]/div/div/div/div[2]/div[1]/div/div[2]/a'
 use_cell_bttn_path = '//*[@id="main"]/div/div[1]/div[2]/main/div/div[2]/form/div[3]/div/span/span'
 phone_num_prompt_path = '//*[@id="phone"]'
