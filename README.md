@@ -19,7 +19,7 @@ $ source venv/bin/activate
 ```
 Now simply do `python bumble_bot.py` (or `python -i bumble_bot.py` for interactive runtime) and thank me later.
 
-:expressionless: folks seem to have strong opinions around python's `sleep()` vs. selenium's `WebDriverWait()`, I went with sleep for simplicity, you choose your joy. 
+folks seem to have strong opinions around python's `sleep()` vs. selenium's `WebDriverWait()`, I went with sleep for simplicity, you choose your joy. 
 
-:warning: This only works when logging in by phone number (for now), feel free to raise PR's to add other auth methods in cuz I personally couldn't be bothered.
+:warning: This only works when logging in by phone number (for now), feel free to raise PR's to add other auth methods in.
 
